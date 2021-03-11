@@ -1,29 +1,27 @@
-# 2TheBasicsRysGitTutorial
+# [go back to content](https://github.com/c4arl0s/RysGitTutorial#rys-git-tutorial) 
 
-2 The Basics Rys Gi tTutorial
+# [2. The Basics - Content](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#go-back-to-content)
+ * [Create the example Site](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-create-the-example-site)
+ * [Initialize the Git Repository](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-initialize-the-git-repository)
+ * [View the repository status](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-view-the-repository-status)
+ * [Stage a snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-stage-a-snapshot)
+ * [Commit the Snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-commit-the-snapshot)
+ * [View the repository History](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-view-the-repository-history)
+ * [Configure Git](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-configure-git)
+ * [Create New HTML files](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-create-new-html-files)
+ * [Stage the New Files](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-stage-the-new-files)
+ * [Commit The new Files](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-commit-the-new-files)
+ * [Modify the HTML Pages](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-modify-the-html-pages)
+ * [Stage and Commit the Snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-stage-and-commit-the-snapshot)
+ * [Explore the Repository](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-explore-the-repository)
+ * [Conclusion](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-conclusion)
+ * [Quick Reference](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-quick-reference)
 
-# 2. [The basics](https://github.com/c4arl0s/RysGitTutorial#2-the-basics)
- * [Create the example Site](https://github.com/c4arl0s/RysGitTutorial#-create-the-example-site)
- * [Initialize the Git Repository](https://github.com/c4arl0s/RysGitTutorial#-initialize-the-git-repository)
- * [View the repository status](https://github.com/c4arl0s/RysGitTutorial#-view-the-repository-status)
- * [Stage a snapshot](https://github.com/c4arl0s/RysGitTutorial#-stage-a-snapshot)
- * [Commit the Snapshot](https://github.com/c4arl0s/RysGitTutorial#-commit-the-snapshot)
- * [View the repository History](https://github.com/c4arl0s/RysGitTutorial#-view-the-repository-history)
- * [Configure Git](https://github.com/c4arl0s/RysGitTutorial#-configure-git)
- * [Create New HTML files](https://github.com/c4arl0s/RysGitTutorial#-create-new-html-files)
- * [Stage the New Files](https://github.com/c4arl0s/RysGitTutorial#-stage-the-new-files)
- * [Commit The new Files](https://github.com/c4arl0s/RysGitTutorial#-commit-the-new-files)
- * [Modify the HTML Pages](https://github.com/c4arl0s/RysGitTutorial#-modify-the-html-pages)
- * [Stage and Commit the Snapshot](https://github.com/c4arl0s/RysGitTutorial#-stage-and-commit-the-snapshot)
- * [Explore the Repository](https://github.com/c4arl0s/RysGitTutorial#-explore-the-repository)
- * [Conclusion](https://github.com/c4arl0s/RysGitTutorial#-conclusion)
- * [Quick Reference](https://github.com/c4arl0s/RysGitTutorial#-quick-reference)
-
-# 2. [The basics](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# [2. The Basics](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 - This module explores the fundamental Git workflow: creating a repository, staging and committing snapshots, configuring options, and viewing the state of a repository.
 
-# 	* [Create the example Site](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Create the example Site](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 ```html
 <!DOCTYPE html>
@@ -44,7 +42,7 @@
 </html>
 ```
 
-# 	* [Initialize the Git Repository](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Initialize the Git Repository](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 ```console
 cd /Users/carlossantiagocruz/SWIFT-PROGRAMMING/RysGitTutorial
@@ -62,7 +60,7 @@ $ git init
 Initialized empty Git repository in /Users/carlossantiagocruz/Documents/SWIFT-PROGRAMMING/RysGitTutorialRepository/.git/
 ```
 
-# 	* [View the repository status](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [View the repository status](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 ```console
 $ git status
@@ -82,7 +80,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 - Git does not automatically track files because there are often project files that we don't want to keep under revision control.
 
-# 	* [Stage a snapshot](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Stage a snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 - tell git to start tracking index.html
 
@@ -111,14 +109,14 @@ Changes to be committed:
 - Git's term for creating a snapshot is called staging
 - Staging give us the opportunity to group related changes into distinct snapshots.
 
-# 	* [Commit the Snapshot](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Commit the Snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 ```console
 $ git commit
 ```
 ![Screen Shot 2020-05-22 at 12 55 58](https://user-images.githubusercontent.com/24994818/82695901-9b39ba80-9c2b-11ea-9542-d3499c0dc735.png)
 
-# 	* [View the repository History](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [View the repository History](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 ```console
 $ git log
@@ -134,7 +132,7 @@ Date:   Fri May 22 12:54:21 2020 -0500
     Create index page for the message
 ```
 
-# 	* [Configure Git](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Configure Git](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 ```console
 $ git config --global user.name "your name"
@@ -143,7 +141,7 @@ $ git config --global user.email your.email@example.com
 
 [read book if you want more information]
 
-# 	* [Create New HTML files](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Create New HTML files](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 - orange.html
 
@@ -179,7 +177,7 @@ $ git config --global user.email your.email@example.com
 </html>
 ```
 
-# 	* [Stage the New Files](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Stage the New Files](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 ```console
 $ git add orange.html blue.html
@@ -202,7 +200,7 @@ Changes to be committed:
 
 ![Screen Shot 2020-05-22 at 13 21 50](https://user-images.githubusercontent.com/24994818/82697808-3d0ed680-9c2f-11ea-9c17-f8f3009351dd.png)
 
-# 	* [Commit The new Files](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Commit The new Files](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 ```console
 $ git commit -m "add blue and orangle html file"
@@ -210,7 +208,7 @@ $ git commit -m "add blue and orangle html file"
 
 ![Screen Shot 2020-05-22 at 13 47 10](https://user-images.githubusercontent.com/24994818/82699708-c1af2400-9c32-11ea-800a-1b578fcbcac5.png)
 
-# 	* [Modify the HTML Pages](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Modify the HTML Pages](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 - add this at the end of index.html
 
@@ -229,7 +227,7 @@ $ git commit -m "add blue and orangle html file"
 <p><a href="index.html">Return to home page</a></p>
 ```
 
-# 	* [Stage and Commit the Snapshot](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Stage and Commit the Snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 ```console
 $ git status
@@ -277,7 +275,7 @@ $ git commit -m "Add navigation links"
 
 ![Screen Shot 2020-05-22 at 16 55 24](https://user-images.githubusercontent.com/24994818/82712156-0d6ec700-9c4d-11ea-8dd1-8f705f6996ae.png)
 
-# 	* [Explore the Repository](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Explore the Repository](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 ```console
 $ git log --oneline
@@ -302,11 +300,11 @@ $ git log --oneline
 - Notice that the initial Create index page commit is missing, since blue.html did't exist in that snapshot.
 
 
-# 	* [Conclusion](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Conclusion](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 ![Screen Shot 2020-05-22 at 17 01 45](https://user-images.githubusercontent.com/24994818/82712586-f086c380-9c4d-11ea-9896-d302b0345e8a.png)
 
-# 	* [Quick Reference](https://github.com/c4arl0s/RysGitTutorial#rysgittutorial)
+# 	* [Quick Reference](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 ```console
 $ git init
