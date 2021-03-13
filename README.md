@@ -45,7 +45,7 @@
 # 	* [Initialize the Git Repository](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 ```console
-cd /Users/carlossantiagocruz/SWIFT-PROGRAMMING/RysGitTutorial
+$ cd /Users/carlossantiagocruz/SWIFT-PROGRAMMING/RysGitTutorial
 ```
 
 - then initialize
@@ -297,7 +297,7 @@ $ git log --oneline
 ```
 
 - This display only  the blue.html history.
-- Notice that the initial Create index page commit is missing, since blue.html did't exist in that snapshot.
+- Notice that the initial Create index page commit is missing, since blue.html didn't exist in that snapshot.
 
 
 # 	* [Conclusion](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
@@ -310,24 +310,41 @@ $ git log --oneline
 $ git init
 ```
 
+Create a git repository in the current folder.
+
 ```console
 $ git status
 ```
+
+View the status of each file in a repository.
 
 ```console
 $ git add fileName
 ```
 
+Stage a file for the next commit.
+
 ```console
 $ git commit
 ```
+
+Commit the staged files with a descriptive message.
 
 ```console
 $ git log
 ```
 
+View a repository's commit history.
+
 ```console
-$ git config --global user.name "nameOfTheUser"
+$ git config --global user.name "<nameOfTheUser>"
 ```
 
+Define the author name to be used in all repositories.
+
+```console
+$ git config --global user.email <email>
+```
+
+Define the author email to be used in all repositories.
 
