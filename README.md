@@ -19,7 +19,12 @@
 
 # [2. The Basics](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
-- This module explores the fundamental Git workflow: creating a repository, staging and committing snapshots, configuring options, and viewing the state of a repository.
+This module explores the fundamental Git workflow: 
+
+1. creating a repository, 
+2. staging and committing snapshots, 
+3. configuring options, 
+4. viewing the state of a repository.
 
 # 	* [Create the example Site](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
@@ -78,7 +83,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-- Git does not automatically track files because there are often project files that we don't want to keep under revision control.
+**- Git does not automatically track files because there are often project files that we don't want to keep under revision control**.
 
 # 	* [Stage a snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
@@ -105,9 +110,9 @@ Changes to be committed:
 
 ```
 
-- A snapshot represents the state of your project at a given point in time.
-- Git's term for creating a snapshot is called staging
-- Staging give us the opportunity to group related changes into distinct snapshots.
+1. A snapshot represents the state of your project at a given point in time.
+2. Git's term for creating a snapshot is called staging
+3. Staging give us the opportunity to group related changes into distinct snapshots.
 
 # 	* [Commit the Snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
@@ -139,7 +144,7 @@ $ git config --global user.name "your name"
 $ git config --global user.email your.email@example.com
 ```
 
-[read book if you want more information]
+[re-read the book if you want more information]
 
 # 	* [Create New HTML files](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
@@ -271,7 +276,7 @@ $ git commit -m "Add navigation links"
  2 files changed, 10 insertions(+), 1 deletion(-)
 ```
 
-- Note that the red circle, which represent the current commit, automatically moves forward every time we commit a new snapshot.
+**- Note that the red circle, which represent the current commit, automatically moves forward every time we commit a new snapshot**.
 
 ![Screen Shot 2020-05-22 at 16 55 24](https://user-images.githubusercontent.com/24994818/82712156-0d6ec700-9c4d-11ea-8dd1-8f705f6996ae.png)
 
