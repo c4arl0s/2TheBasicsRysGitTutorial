@@ -1,24 +1,25 @@
 # [go back to content](https://github.com/c4arl0s/RysGitTutorial#rys-git-tutorial) 
 
 # [2. The Basics - Content](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#go-back-to-content)
- * [Create the example Site](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-create-the-example-site)
- * [Initialize the Git Repository](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-initialize-the-git-repository)
- * [View the repository status](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-view-the-repository-status)
- * [Stage a snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-stage-a-snapshot)
- * [Commit the Snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-commit-the-snapshot)
- * [View the repository History](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-view-the-repository-history)
- * [Configure Git](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-configure-git)
- * [Create New HTML files](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-create-new-html-files)
- * [Stage the New Files](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-stage-the-new-files)
- * [Commit The new Files](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-commit-the-new-files)
- * [Modify the HTML Pages](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-modify-the-html-pages)
- * [Stage and Commit the Snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-stage-and-commit-the-snapshot)
- * [Explore the Repository](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-explore-the-repository)
- * [Conclusion](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-conclusion)
- * [Quick Reference](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-quick-reference)
 
+1. [x] [1. Create the example Site](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-create-the-example-site)
+2. [x] [2. Initialize the Git Repository](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-initialize-the-git-repository)
+3. [x] [3. View the repository status](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-view-the-repository-status)
+4. [x] [4. Stage a snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-stage-a-snapshot)
+5. [x] [5. Commit the Snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-commit-the-snapshot)
+6. [x] [6. View the repository History](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-view-the-repository-history)
+7. [x] [7. Configure Git](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-configure-git)
+8. [x] [8. Create New HTML files](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-create-new-html-files)
+9. [x] [9. Stage the New Files](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-stage-the-new-files)
+10. [x] [10. Commit The new Files](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-commit-the-new-files)
+11. [x] [11. Modify the HTML Pages](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-modify-the-html-pages)
+12. [x] [12. Stage and Commit the Snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-stage-and-commit-the-snapshot)
+13. [x] [13. Explore the Repository](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-explore-the-repository)
+14. [x] [14. Conclusion](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-conclusion)
+15. [x] [15. Quick Reference](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#-quick-reference)
+  
 # [2. The Basics](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
-
+ 
 This module explores the fundamental Git workflow: 
 
 1. creating a repository, 
