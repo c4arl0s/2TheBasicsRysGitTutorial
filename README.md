@@ -86,6 +86,8 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 **- Git does not automatically track files because there are often project files that we don't want to keep under revision control**.
 
+<img width="847" alt="Screenshot 2023-11-26 at 11 58 19 a m" src="https://github.com/c4arl0s/2TheBasicsRysGitTutorial/assets/24994818/0cac5088-a345-48f3-bd4a-67ea2061c235">
+
 # 	* [Stage a snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 - tell git to start tracking index.html
