@@ -115,6 +115,8 @@ Changes to be committed:
 2. Git's term for creating a snapshot is called staging
 3. Staging give us the opportunity to group related changes into distinct snapshots.
 
+<img width="726" alt="Screenshot 2023-11-26 at 11 45 44 a m" src="https://github.com/c4arl0s/2TheBasicsRysGitTutorial/assets/24994818/ed3cc109-5dd6-4971-ae57-791f54c53692">
+
 # 	* [Commit the Snapshot](https://github.com/c4arl0s/2TheBasicsRysGitTutorial#2-the-basics---content)
 
 ```console
